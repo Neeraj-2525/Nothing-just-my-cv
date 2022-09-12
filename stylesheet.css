@@ -167,6 +167,24 @@ nav a :hover{
     text-align: center;
 }
 
+.aboutborder {
+    position: absolute;
+    top: 39%;
+    bottom: 20%;
+    right: 12.8%;
+    font-family:Sofia;
+    font-size: x-large;
+    display: inline-block;
+    width: 1000px;
+    height: 920px;
+    /* border: 1px solid rgb(148, 148, 148);
+    border-radius: 5px;
+    border-left-width: 2px;
+    border-right-width: 2px; */
+    text-align: left;
+
+}
+
 footer a {
     position:fixed;
     text-decoration: none;
