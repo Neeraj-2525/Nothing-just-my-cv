@@ -39,6 +39,21 @@ html {
     z-index: 1;
 }
 
+.contactback{
+    background-image: url(image/pexels-gdtography-950241.jpg);
+    min-height: 200%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    z-index: 1;
+}
+
 .text {
     background-image: url(image/Geo2\ Portrait.jpg);
     background-repeat: none;
@@ -183,6 +198,15 @@ nav a :hover{
     border-right-width: 2px; */
     text-align: left;
 
+}
+
+.email a{
+    text-decoration: none ; color: black;
+
+}
+
+.email a:hover{
+    color: darkorange;
 }
 
 footer a {
