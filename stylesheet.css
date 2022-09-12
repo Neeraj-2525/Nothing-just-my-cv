@@ -24,6 +24,21 @@ html {
     z-index: 1;
 }
 
+.aboutback{
+    background-image: url(image/Geo6\ blue.jpg);
+    height: 200%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    z-index: 1;
+}
+
 .text {
     background-image: url(image/Geo2\ Portrait.jpg);
     background-repeat: none;
@@ -44,6 +59,7 @@ html {
     transform: translate(-50%, -80%);
     z-index: 2;
 }
+
 
 .text a{
     text-decoration: none;
@@ -139,6 +155,17 @@ nav a :hover{
     padding: none;
 }
 
+.about1 {
+    position: absolute;
+    top: 20%;
+    right: 13%;
+    display: inline-block;
+    font-family: Sofia;
+    font-size: medium;
+    width: 1000px;
+    height: 1000px;
+    text-align: center;
+}
 
 footer a {
     position:fixed;
