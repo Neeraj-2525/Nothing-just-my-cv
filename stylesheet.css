@@ -1,0 +1,150 @@
+@import url(https://fonts.googleapis.com/css?family=Sofia);
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Shadows+Into+Light&display=swap');
+
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.back {
+    background-image: url(image/Geo2\ Portrait.jpg);
+    height: 200%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    z-index: 1;
+}
+
+.text {
+    background-image: url(image/Geo2\ Portrait.jpg);
+    background-repeat: none;
+    background-size: cover;
+    color: rgb(67, 66, 70);
+    font-weight: bold;
+    position: fixed;
+    text-align: center;
+    left: 0;
+    right: 0;
+    text-shadow: rgb(153, 153, 153) 1px 4px 5px;
+    top: 10%;
+    left: 50%;
+    width: 25%;
+    padding-left: 500px;
+    padding-right: 510px;
+    /* padding: 10px; */
+    transform: translate(-50%, -80%);
+    z-index: 2;
+}
+
+.text a{
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}
+
+
+nav {
+    background-color: rgb(95, 95, 95);
+    overflow: hidden;
+    position:fixed;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    top: 12.7%;
+    z-index: 3;
+}
+
+nav a {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration:none;
+    padding: 20px;
+    text-align: center;
+    float:left;
+    color: white;
+    
+}
+
+nav a :hover{
+    color: rgb(218, 197, 105);
+}
+
+.neerajimg{
+    position: absolute;
+    top: 30%;
+    right: 78%;
+    border-radius: 5%;
+    
+}
+
+.mainText {
+    position: absolute;
+    top: 68%;
+    right: 85%;
+    font-family:Sofia;
+}
+
+.first{
+    position: absolute;
+    top: 30%;
+    right: 2.5%;
+    display: inline-block;
+    font-family: Sofia;
+    font-size: medium;
+    width: 1000px;
+    height: 1000px;
+    border: 1px solid rgb(148, 148, 148);
+    border-radius: 5px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    text-align: left;
+    
+}
+
+.second{
+    position: absolute;
+    top: 43%;
+    bottom: 20%;
+    right: 2.5%;
+    font-family:Sofia;
+    font-size: larger;
+    display: inline-block;
+    width: 1000px;
+    height: 920px;
+    border: 1px solid rgb(148, 148, 148);
+    border-radius: 5px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    text-align: left;
+}
+
+.second li{
+    font-size: medium;
+}
+
+
+
+.third {
+    display: inline-block;
+    width: 4%;
+    margin: 0 20px;
+    padding: none;
+}
+
+
+footer a {
+    position:fixed;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
