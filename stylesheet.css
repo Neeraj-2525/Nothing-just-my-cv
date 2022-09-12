@@ -227,3 +227,15 @@ footer  a{
     color: rgb(255, 255, 255);
 
 }
+
+.pp1{
+    position: absolute;
+    top: 50%;
+    right: 13%;
+    display: inline-block;
+    font-family: Sofia;
+    font-size: medium;
+    width: 1000px;
+    height: 1000px;
+    text-align: center;
+}
