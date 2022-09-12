@@ -209,11 +209,21 @@ nav a :hover{
     color: darkorange;
 }
 
-footer a {
-    position:fixed;
+
+footer{
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    right: 0;
+    background-color: rgb(95, 95, 95);
+    z-index: 4;
+}
+
+footer  a{
     text-decoration: none;
     padding: 20px;
-    text-align: center;
+    margin-left: 140px;
     float: left;
-    color: white;
+    color: rgb(255, 255, 255);
+
 }
